@@ -2,6 +2,7 @@
   "name": "app",
   "description": "",
   "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js",
     "start": "node dist/index.js",
     "build": "babel src -d dist",
     "test": "jest",
@@ -24,6 +25,7 @@
     "eslint-plugin-prettier": "^3.0.1",
     "husky": "^3.0.0",
     "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
     "prettier": "^1.16.4",
     "supertest": "^4.0.2"
   }
