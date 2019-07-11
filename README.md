@@ -5,7 +5,7 @@ Node.js server is a web server written in Node.js
 ### `npm run dev`
 Runs the server in development mode using [Nodemon](https://nodemon.io/) for auto-restart upon change
 
-### `npm build`
+### `npm run build`
 Transpiles the JS files to compatible version in `dist` directory with [Babel](https://babeljs.io/)
 
 ### `npm start`
