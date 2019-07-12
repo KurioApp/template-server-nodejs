@@ -9,4 +9,3 @@ services:
     image: app:latest
     ports:
       - 3000:3000
-      - 7723:7723
