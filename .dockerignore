@@ -1,0 +1,13 @@
+__tests__/
+.env
+.eslintignore
+.gitignore
+docker-compose.yml
+Dockerfile
+README.md
+
+node_modules/
+.idea/
+.vscode/
+.git/
+.DS_Store
