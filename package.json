@@ -10,6 +10,11 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "gc-stats": "git+https://github.com/dainis/node-gcstats.git#v1.5.0",
+    "prom-client": "^12.0.0",
+    "prometheus-gc-stats": "^0.6.2",
+    "response-time": "^2.3.2",
+    "url-value-parser": "^2.0.1",
     "winston": "^3.2.1"
   },
   "devDependencies": {
