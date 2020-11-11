@@ -1,5 +1,5 @@
 export default function(repository) {
-  if (repository === null || repository === undefined) {
+  if (!repository) {
     throw new Error("please provide repository");
   }
   return {

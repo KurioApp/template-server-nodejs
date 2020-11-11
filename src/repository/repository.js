@@ -1,6 +1,6 @@
 // this function will be exported and can be injected with any dependencies
 export default function(database) {
-  if (database === null || database === undefined) {
+  if (!database) {
     throw new Error("please provide database");
   }
   return {
