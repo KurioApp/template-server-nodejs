@@ -5,20 +5,20 @@
 
 // function Article(id, title, content, publisherID) {
 //   return {
-//     id,
-//     title,
-//     content,
+//     id: id ? : '',
+//     title: title ? : '',
+//     content: content ? : '',
 //     publisher: {
-//       id: publisherID
+//       id: publisherID ? : ''
 //     }
 //   };
 // }
 //
 // function Publisher(id, name, url) {
 //   return {
-//     id,
-//     name,
-//     url
+//     id: id ? : '',
+//     name: name ? : '',
+//     url: url ? : ''
 //   };
 // }
 //
